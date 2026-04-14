@@ -10,11 +10,16 @@
     width: 100%;
     
 }
- .nav{
-    border: 5px solid green; 
-    height: 10vh;
-    width: 95%;
-    top:20%;
+.nav {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+
+  width: 95%;
+  margin: 0 auto;
+  border: 5px solid green;
+  height: 10vh;
 }
 .product{
     border-style:solid;
@@ -45,7 +50,7 @@
     border-style:solid;
     border-color:orange;
     height:62vh;
-    width:90%;
+    width:110%;
   }
   .second-banner{
     border-style:solid;
@@ -56,9 +61,25 @@
   .second-product{
     border-style:solid;
     border-color:rgb(179, 255, 0);
-    height: 450vh;
+    height: 250vh;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0 100px;
+ 
+  /* padding: 5px; */
+  gap: 40px;  
 
    
+  }
+
+  .second{
+    border-style:solid;
+    border-color:orange;
+    height:62vh;
+    width: 70wh;
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
   }
   .footer{
     border: 5px solid rgb(243, 27, 27);
