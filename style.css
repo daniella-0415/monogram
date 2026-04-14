@@ -13,12 +13,11 @@
  .nav{
     border: 5px solid green; 
     height: 10vh;
-   border-top: 200%
 }
 .product{
     border-style:solid;
   border-color:rgb(0, 47, 255);
-  height:150vh;
+  height:350vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -36,25 +35,26 @@
   .second-banner{
     border-style:solid;
     border-color:rgb(255, 0, 200);
-    height: 70vh;
+    height: 78vh;
    
   }
   .second-product{
     border-style:solid;
     border-color:rgb(179, 255, 0);
-    height: 110vh;
+    height: 450vh;
+
    
   }
   .footer{
     border: 5px solid rgb(243, 27, 27);
-    height: 84vh;
+    height: 55vh;
     width: 100%;
     top: 20px;
   }
 
   nav {
   background-color: #2602f4;
-  width: 97%;
+  width: 55%;
   top: 500px;
   left: 100px;
 }
