@@ -10,10 +10,10 @@
     width: 100%;
     
 }
-.nav{
+ .nav{
     border: 5px solid green; 
     height: 10vh;
-   
+   border-top: 200%
 }
 .product{
     border-style:solid;
@@ -47,7 +47,46 @@
   }
   .footer{
     border: 5px solid rgb(243, 27, 27);
-    height: 45vh;
+    height: 84vh;
     width: 100%;
     top: 20px;
   }
+
+  nav {
+  background-color: #2602f4;
+  width: 97%;
+  top: 500px;
+  left: 100px;
+}
+
+ul {
+  list-style-type: none;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 auto;
+  overflow: hidden;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px ;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #000;
+
+}
+
+p {
+   color: antiquewhite;
+   font-weight: bold;
+   font-size: 15px;
+   
+}
