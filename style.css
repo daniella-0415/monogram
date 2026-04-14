@@ -13,25 +13,39 @@
  .nav{
     border: 5px solid green; 
     height: 10vh;
+    width: 95%;
+    top:20%;
 }
 .product{
     border-style:solid;
   border-color:rgb(0, 47, 255);
-  height:350vh;
+  height:250vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+  /* position:absolute; */
+  padding: 0 100px;
+
   
 }
 .first{
     border-style:solid;
     border-color:orange;
-    height:70vh;
-    width:45%;
+    height:62vh;
+    width: 48%;
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    
    
   
+  }
+  .dan{
+    border-style:solid;
+    border-color:orange;
+    height:62vh;
+    width:90%;
   }
   .second-banner{
     border-style:solid;
@@ -56,7 +70,7 @@
   nav {
   background-color: #2602f4;
   width: 55%;
-  top: 500px;
+  top: 50%;
   left: 100px;
 }
 
