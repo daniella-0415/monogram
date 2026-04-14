@@ -22,14 +22,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  top: 20px;
+  
+  
 }
 .first{
     border-style:solid;
     border-color:orange;
-    height:45vh;
-    width:25%;
-    top: 20px;
+    height:70vh;
+    width:45%;
+   
   
   }
   .second-banner{
