@@ -6,7 +6,7 @@
 }
 .container{
     border: 2px solid red;
-    height: 110vh;
+    height: 98vh;
     width: 100%;
     
 }
@@ -29,6 +29,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  
   /* position:absolute; */
   padding: 0 100px;
 
@@ -72,6 +73,9 @@
    
   }
 
+  .footer{
+    background-color: #2602f4;
+  }
   .second{
     border-style:solid;
     border-color:orange;
@@ -125,4 +129,14 @@ p {
    font-weight: bold;
    font-size: 15px;
    
+}
+
+.toes {
+  width: 100%;
+  height: 100%;
+}
+
+.go {
+  width: 100%;
+  height: 100%;
 }
