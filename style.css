@@ -6,21 +6,10 @@
 }
 .container{
     border: 2px solid red;
-    height: 110vh;
+    height: 98vh;
     width: 100%;
     
 }
-<<<<<<< HEAD
-
-.toes {
-  width: 100%;
-  height: 91%; 
-}
- .nav{
-    border: 5px solid green; 
-    height: 10vh;
-    width: 95vw;
-=======
 .nav {
   position: fixed;
   top: 20px;
@@ -31,7 +20,6 @@
   margin: 0 auto;
   border: 5px solid green;
   height: 10vh;
->>>>>>> 140dfe01c19594d85ded9753b36f7e80e8b93021
 }
 .product{
     border-style:solid;
@@ -41,6 +29,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  
   /* position:absolute; */
   padding: 0 100px;
 
@@ -49,12 +38,6 @@
 .first{
     border-style:solid;
     border-color:orange;
-<<<<<<< HEAD
-    height:70vh;
-    width:45%;
-    display: grid;
-    flex-direction: column;
-=======
     height:62vh;
     width: 48%;
     margin: 50px 0;
@@ -62,7 +45,6 @@
     grid-template-columns: auto auto;
     
    
->>>>>>> 140dfe01c19594d85ded9753b36f7e80e8b93021
   
   }
   .dan{
@@ -91,6 +73,9 @@
    
   }
 
+  .footer{
+    background-color: #2602f4;
+  }
   .second{
     border-style:solid;
     border-color:orange;
@@ -144,4 +129,14 @@ p {
    font-weight: bold;
    font-size: 15px;
    
+}
+
+.toes {
+  width: 100%;
+  height: 100%;
+}
+
+.go {
+  width: 100%;
+  height: 100%;
 }
