@@ -12,6 +12,7 @@
 
  .nav {
   position: fixed;
+  z-index: 1;
   top: 20px;
   left: 0;
   right: 0;
@@ -22,8 +23,8 @@
   height: 10vh;
 }
 .product{
-    border-style:solid;
-  border-color:rgb(0, 47, 255);
+    /* border-style:solid;
+  border-color:rgb(0, 47, 255); */
   height:250vh;
   display: flex;
   flex-direction: row;
@@ -33,8 +34,8 @@
  }
 
 .first{
-    border-style:solid;
-    border-color:orange;
+    /* border-style:solid;
+    border-color:orange; */
     position: relative;
     height:80vh;
     width: 48%;
@@ -134,8 +135,8 @@
 }
   .dan{
     position: relative;
-    border-style:solid;
-    border-color:orange;
+    /* border-style:solid;
+    border-color:orange; */
     height:50vh;
     width:110%;
     top: 2px;
@@ -159,14 +160,14 @@
     left: 0;
   }
   .second-banner{
-    border-style:solid;
-    border-color:rgb(255, 0, 200);
+    /* border-style:solid;
+    border-color:rgb(255, 0, 200); */
     height: 78vh;
    
   }
   .second-product {
-    border-style:solid;
-    border-color:rgb(179, 255, 0);
+    /* border-style:solid;
+    border-color:rgb(179, 255, 0); */
     height: 3j50vh;
     display: grid;
   grid-template-columns: auto auto auto;
@@ -209,8 +210,8 @@
 
   .second{
     position: relative;
-    border-style:solid;
-    border-color:orange;
+    /* border-style:solid; */
+    /* border-color:orange; */
     height:62vh;
     width: 70vh;
     margin: 50px 0;
@@ -238,7 +239,7 @@
   /* Hover Effects */
   .shop-link:hover {
     background-color: #007bff; /* Blue box background */
-    border-color: #007bff;
+    /* border-color: #007bff; */
     border-radius: 10px;
   }
   
