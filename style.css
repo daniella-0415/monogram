@@ -233,27 +233,27 @@
     border: 1px solid #ccc;
     width: 70px;
     text-align: center;
-    transition: all 0.3s ease; /* Smooth transition */
+    /* transition: all 0.3s ease;  */
   }
   
   .hover-text {
-    display: none; /* Hide Shop Now initially */
+    display: none;
     color: white;
   }
   
-  /* Hover Effects */
+  
   .shop-link:hover {
-    background-color: #007bff; /* Blue box background */
-    /* border-color: #007bff; */
+    background-color: #007bff; 
+    
     border-radius: 10px;
   }
   
   .shop-link:hover .price-text {
-    display: none; /* Hide price on hover */
+    display: none; 
   }
   
   .shop-link:hover .hover-text {
-    display: inline; /* Show Shop Now on hover */
+    display: inline; 
   }
   
   .footer{
@@ -278,7 +278,6 @@
   width: 100%;
   left: 100px;
   height: 99%;
-  /* left: 201%; */
   /* display: flex; */
   /* flex-wrap: nowrap; */
 }
